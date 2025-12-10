@@ -13,12 +13,13 @@ Download: https://github.com/gttnvk/unitscan-soft/archive/refs/heads/main.zip
 Copy folder to your Turtle WoW Addons folder ex: \Interface\AddOns\unitscan-turtle-hc
 
 
-Commands
-/unitscan <name>        - Add/remove a target from your list
-/unitscantarget         - Retarget the last detected creature
-/unitscanwf <seconds>   - Auto-close creature window (0=manual)
-/unitscanlevel <level>  - Only alert for mobs this level or higher
-/unitscanhelp           - Show all commands and current settings
+## Commands
+- `/unitscan <name>` — Add/remove a target from your list  
+- `/unitscantarget` — Retarget the last detected creature  
+- `/unitscanwf <seconds>` — Auto-close creature window (0=manual)  
+- `/unitscanlevel <level>` — Only alert for mobs this level or higher  
+- `/unitscanhelp` — Show all commands and current settings  
+
 
 **You can move the unitscan frame by holding CTRL+SHIFT+LEFT CLICK dragging.**
 
