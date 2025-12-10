@@ -1,6 +1,6 @@
 
 
-# UnitScan-Turtle Soft (Hardcore Version)
+# UnitScan Soft Turtle WoW (Hardcore Version)
 
 ## Description
 This fork extends [unitscan-turtle](https://github.com/GryllsAddons/unitscan-turtle) by provinding a prepopulated list of  dangerous elite mobs, rares, and other units. This version is especially useful if you're playing Turtle WoW's hardcore mode.
@@ -26,7 +26,7 @@ You can add custom targets to find players or targets not included in the zone t
 
 Please Note: Targets added using /unitscan *name* will be removed from active scan targets after they are found. For a permanenet solution, edit [zone targets.lua](https://raw.githubusercontent.com/RetroCro/unitscan-turtle-hc/refs/heads/master/zonetargets.lua) and add a line entry for that unit.
 
-```
+
 
 ## Preview
 <video src="https://github.com/user-attachments/assets/835e06ea-c42f-464c-b2fb-cb5800e48db0" controls="controls" style="max-width: 730px;">
