@@ -1,6 +1,6 @@
 
 
-# UnitScan-Turtle (Hardcore Version)
+# UnitScan-Turtle Soft (Hardcore Version)
 
 ## Description
 This fork extends [unitscan-turtle](https://github.com/GryllsAddons/unitscan-turtle) by provinding a prepopulated list of  dangerous elite mobs, rares, and other units. This version is especially useful if you're playing Turtle WoW's hardcore mode.
