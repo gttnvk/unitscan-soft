@@ -10,24 +10,22 @@ If using the launcher use this url: https://github.com/gttnvk/unitscan-soft.git
 
 Download: https://github.com/gttnvk/unitscan-soft/archive/refs/heads/main.zip
 
-Copy folder to your Turtle WoW Addons folder ex: twmoa_1171\Interface\AddOns\unitscan-turtle-hc
+Copy folder to your Turtle WoW Addons folder ex: \Interface\AddOns\unitscan-turtle-hc
 
-Path should look like this:
-```
-....\TWMOA_1171\
-├───Interface\
-│   └───AddOns\
-│       ├───unitscan-turtle-hc\
-│       │       Event_wardrum_ogre.ogg
-│       │       gruntling_horn_bb.ogg
-│       │       README.md
-│       │       scourge_horn.ogg
-│       │       UI-Achievement-Alert-Glow.blp
-│       │       UI-Achievement-Parchment-Horizontal.blp
-│       │       UI-Achievement-Title.blp
-│       │       unitscan-turtle-hc.toc
-│       │       unitscan.lua
-│       │       zonetargets.lua
+
+Commands
+/unitscan <name>        - Add/remove a target from your list
+/unitscantarget         - Retarget the last detected creature
+/unitscanwf <seconds>   - Auto-close creature window (0=manual)
+/unitscanlevel <level>  - Only alert for mobs this level or higher
+/unitscanhelp           - Show all commands and current settings
+
+**You can move the unitscan frame by holding CTRL+SHIFT+LEFT CLICK dragging.**
+
+You can add custom targets to find players or targets not included in the zone targets list by using the command /unitscan *name*. 
+
+Please Note: Targets added using /unitscan *name* will be removed from active scan targets after they are found. For a permanenet solution, edit [zone targets.lua](https://raw.githubusercontent.com/RetroCro/unitscan-turtle-hc/refs/heads/master/zonetargets.lua) and add a line entry for that unit.
+
 ```
 
 ## Preview
@@ -60,17 +58,7 @@ The list of units can be found in [zone targets.lua](https://raw.githubuserconte
 -   **Please note unitscan will not auto target the target when it is found.**    
    **Click the target in the unitscan window or use the macro /unitscantarget to target the mob.**
 
-## Commands / Use
-**You can move the unitscan frame by holding CTRL+SHIFT+LEFT CLICK dragging.**
 
-
-**/unitscan** *lists the active scan targets*    
-**/unitscan name** *adds/removes **name** to/from the active scan targets*    
-**/unitscantarget** *targets the most recently found target*    
-
-You can add custom targets to find players or targets not included in the zone targets list by using the command /unitscan *name*. 
-
-Please Note: Targets added using /unitscan *name* will be removed from active scan targets after they are found. For a permanenet solution, edit [zone targets.lua](https://raw.githubusercontent.com/RetroCro/unitscan-turtle-hc/refs/heads/master/zonetargets.lua) and add a line entry for that unit.
 
 ## Complementary Addons
 [**SoloRaidTargetIcons**](https://github.com/refaim/SoloRaidTargetIcons) - This addon lets you put raid markers on units without being in a party (see video).
