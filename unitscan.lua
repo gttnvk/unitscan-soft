@@ -91,6 +91,13 @@ do
 	end
 
 	function unitscan.check_for_targets()
+		
+			-- Do not scan if player already has a target
+			if UnitExists("target") then
+    		return
+			end
+		
+		
 		for name, _ in unitscan_targets do
 			if name == unitscan.target(name) then
 				unitscan.foundTarget = name
